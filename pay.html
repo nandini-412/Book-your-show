@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment gateway</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="pat.css">
+	<link rel="stylesheet" type="text/css" href="pat.js">
+</head>
+<body class="container">
+	<nav class="navbar navbar-expand-sm bg-light opacity fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+				<!-- <span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> -->
+			</button>
+		<a href="#" class="navbar-brand"><i class="fas fa-film"></i><b>Book Your Show</b></a>
+		<div class="collapse navbar-collapse" id="menu">
+			
+			<ul class="nav navbar-nav ml-auto">
+			
+				<li class="nav-item active"><a href="#" class="nav-link"><i class="fas fa-info-circle"></i><b>About</b></a></li>
+				<li class="nav-item active"><a href="#" class="nav-link"><i class="fas fa-address-book"></i><b>Contact us</b></a></li>
+			</ul>
+		</div>
+		</div>
+		
+	</nav>
+	<div class="container ">
+	<div class="jumbotron  flex">
+	<h1><b><i class="fab fa-cc-visa"></i>Payment Details</b></h1>
+		<img src="http://i76.imgup.net/accepted_c22e0.png">
+	</div>
+	</div>
+	<form class="area flex" action="file:///C:/Users/Vansh%20Aggarwal/Desktop/dbms%20web/payment.html">
+		<div class="name">
+			<label ><b>Name on Card</b></label>
+			<input type="text" placeholder="Barry Allen" required="" name="name">
+		</div>
+				<div class="num">
+					<label ><b>Card Number    <i class="fas fa-credit-card"></i></b></label>
+					<input type="text" placeholder="Valid Card Number" required="" pattern=".{12}" required title="12 digits" name="card number">
+					<label class="valid"><b>Valid Upto<i class="fas fa-calendar-week"></i></b></label>
+					<input type="text" placeholder="MM/YYYY" required="" name="validity">
+				</div>
+				<div>
+					
+				</div>
+				<div class="cvv">
+					<label ><b>CVV</b></label>
+					<input type="text" required="" placeholder="CV code"  pattern=".{3}" required title="3 digits" name="cvv">
+				</div>
+				<div>
+					<label class="coup"><b>Coupon Code</b></label>
+					<input type="text"  name="coup">
+				</div>
+				<div>
+					<a href="file:///C:/Users/Vansh%20Aggarwal/Desktop/dbms%20web/payment.html">
+						<button class="btn-success btn-lg mb-4">PAY</button>
+					</a>
+					
+				</div>
+
+	</form>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

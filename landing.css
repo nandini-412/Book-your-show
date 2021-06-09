@@ -1,0 +1,26 @@
+.d-block{
+	height: 450px;
+	width: 800px;
+	margin-top: 50px;
+}
+.btn-lg{
+	margin-left: 200px;
+	margin-top: 15px;
+	padding-left: 120px;
+	padding-right: 120px;
+	border-radius: 20px;
+	border: 5px solid aqua;
+}
+body{
+	background-color: grey;
+}
+.navbar-brand{
+	color: red;
+}
+.navbar-toggler-icon{
+	border: 1px solid white;
+		
+}
+.nav-item{
+	color: char;
+}

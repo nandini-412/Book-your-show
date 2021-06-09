@@ -1,0 +1,63 @@
+.container{
+	background: url(https://cdn.wallpapersafari.com/45/4/J23dlW.jpg);
+	background-size: cover;
+
+}
+.content{
+	padding-top: 100px;
+	padding-left: 290px;
+
+}
+.lastname{
+	margin-left: 30px;
+}
+.male{
+	margin-left: 80px;
+}
+.female{
+	margin-left: 80px;
+}
+.others{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.pass{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.dob{
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.btn-danger{
+	margin-left: 220px;
+	margin-top: 30px;
+}
+.tc{
+	margin-top: 20px;
+}
+h1{
+	text-align: center;
+	margin-top: 50px;
+	color: lightgrey;
+	font-size: 60px;
+}
+.email{
+	margin-top: 50px;
+	margin-left: 130px;
+}
+.passlog{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.btn-success{
+	margin-top: 70px;
+	margin-left: 230px;
+}
+.navbar-brand{
+	color: red;
+}
+.navbar-toggler-icon{
+	border: 1px solid white;
+		
+}
